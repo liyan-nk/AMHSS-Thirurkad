@@ -615,7 +615,7 @@
 
 .site-footer
 {
-  background-color:#b32a37;
+  background-color:var(--primary);
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -645,7 +645,7 @@
 }
 .site-footer a:hover
 {
-  color:#34DCB1;
+  color:#000000;
   text-decoration:none;
 }
 .footer-links
@@ -664,7 +664,7 @@
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#34DCB1;
+  color:#000000;
   text-decoration:none;
 }
 .footer-links.inline li
@@ -683,7 +683,7 @@
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:#fd0019;
+  background-color:#06727c;
 }
 .copyright-text
 {
@@ -759,7 +759,7 @@
 }
 .social-icons a.instagram:hover
 {
-  background-color:#8a3ab9;
+  background-color:#DC3545;
 }
 @media (max-width:767px)
 {
