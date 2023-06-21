@@ -102,58 +102,58 @@
 
     <h1 class="mb-4 text-center">Take Admission Now!</h1>
 
-<form class="admission-form">
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="form-group">
-          <label>Student's Name</label>
-          <input type="text" id="student-name" name="student-name" class="form-control" required>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="form-group">
-          <label>Parent's Name</label>
-          <input type="text" name="Parent's Name" class="form-control" required>
-        </div>
-      </div>
-    </div>
-    <div class="form-group">
-        <label>Address</label>
-          <textarea type="text" name="Address" class="form-control" required rows="1"></textarea>
-      </div>
-    <div class="row">
+    <form class="admission-form">
+      <div class="row">
         <div class="col-lg-6">
-            <div class="form-group">
-              <label>Place</label>
-              <input type="text" name="Place" class="form-control" required>
-            </div>
+          <div class="form-group">
+            <label>Student's Name</label>
+            <input type="text" id="student-name" name="student-name" class="form-control" required>
           </div>
-          <div class="col-lg-6">
-            <div class="form-group">
-                <label>Phone Number</label>
-                <input type="tel" name="Phone Number" pattern="^\+91 \d{10}$" maxlength="14" id="Phone-Number" class="form-control" required>
-            </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="form-group">
+            <label>Parent's Name</label>
+            <input type="text" name="parent-name" class="form-control" required>
           </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="form-group">
-          <label>Date of Birth</label>
-          <input type="date" name="DOB" class="form-control" required>
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="form-group">
+      <div class="form-group">
+        <label>Address</label>
+        <textarea type="text" name="address" class="form-control" required rows="1"></textarea>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="form-group">
+            <label>Place</label>
+            <input type="text" name="place" class="form-control" required>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" name="phone-number" pattern="^\+91 \d{10}$" maxlength="14" class="form-control" required>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="form-group">
+            <label>Date of Birth</label>
+            <input type="date" name="dob" class="form-control" required>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="form-group">
             <label>Aadhar No. of Student</label>
-            <input type="text" name="Aadhar No. of Student" data-type="adhaar-number" maxlength="14" id="Phone-Number" class="form-control" required>
+            <input type="text" name="aadhar-number" data-type="adhaar-number" maxlength="14" class="form-control" required>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="form-group">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="form-group">
             <label>Class for Admission</label>
-            <select class="form-control" name="Class for Admission">
+            <select class="form-control" name="class-admission">
               <option value="5">5</option>
               <option value="6">6</option>
               <option value="7">7</option>
@@ -162,56 +162,58 @@
               <option value="10">10</option>
             </select>
           </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="form-group">
+        </div>
+        <div class="col-lg-6">
+          <div class="form-group">
             <label>Select Medium</label>
-            <select class="form-control" name="Class for Admission">
+            <select class="form-control" name="medium">
               <option value="English">English</option>
               <option value="Malayalam">Malayalam</option>
             </select>
           </div>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <div class="form-group">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="form-group">
             <label>Select your First Language</label>
-            <select class="form-control" name="Class for Admission">
+            <select class="form-control" name="first-language">
               <option value="Malayalam">Malayalam</option>
               <option value="Arabic">Arabic</option>
               <option value="Urdu">Urdu</option>
               <option value="Sanskrit">Sanskrit</option>
             </select>
           </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="form-group">
-          <label>Last Studied School</label>
-          <input class="form-control" name="Last School" type="text" >
+        </div>
+        <div class="col-lg-6">
+          <div class="form-group">
+            <label>Last Studied School</label>
+            <input class="form-control" name="last-school" type="text">
+          </div>
         </div>
       </div>
-    </div>
-    <div class="form-group">
-      <label>Phone Number</label>
-      <input type="tel" name="Phone Number" id="Phone-Number" class="form-control" id="phone-number" placeholder="Enter phone number">
-    </div>
-    <div class="form-group">
-      <label for="dob">Date of Birth</label>
-      <input type="date" class="form-control" id="dob">
-    </div>
-    <div class="form-group">
-      <label>Class for Admission</label>
-      <select class="form-control" id="class-admission">
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-      </select>
-    </div>
-    </div>
-    <center><button type="submit" class="btn btn1-primary">Submit</button></center>
-  </form>
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" name="phone-number" class="form-control" placeholder="Enter phone number">
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of Birth</label>
+        <input type="date" class="form-control" id="dob">
+      </div>
+      <div class="form-group">
+        <label>Class for Admission</label>
+        <select class="form-control" id="class-admission">
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+      </div>
+      <div class="center-button">
+        <button type="submit" class="bt1 btn1-primary">Submit</button>
+      </div>
+    </form>
+    
   
   
 
