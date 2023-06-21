@@ -999,7 +999,8 @@ select:focus + label{color: #304FFE
     border-color: #0062cc;
   }
   
-  .btn-primary:focus, .btn-primary.focus {
+  .btn-primary:focus,
+  .btn-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
   }
   
@@ -1024,6 +1025,7 @@ select:focus + label{color: #304FFE
     height: calc(2.25rem + 2px);
     padding: 0.375rem 0.75rem;
   }
+  
   .admission-form select.form-control {
     background-color: #fff;
     color: #495057;
@@ -1039,4 +1041,13 @@ select:focus + label{color: #304FFE
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
   }
+  
+  .wider-input {
+    width: calc(100% - 20px);
+  }
+  
+  .wider-input + .form-control {
+    width: calc(100% - 20px);
+  }
+  
   
