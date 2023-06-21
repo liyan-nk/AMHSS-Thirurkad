@@ -979,6 +979,7 @@ select:focus + label{color: #304FFE
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    margin-bottom: 50px;
   }
   
   .form-group {
@@ -989,18 +990,24 @@ select:focus + label{color: #304FFE
     font-weight: bold;
   }
   
-  .btn-primary {
+  .btn1-primary {
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    margin: 15px;
     background-color: #007bff;
     border-color: #007bff;
+    border-radius: 3px;
   }
   
-  .btn-primary:hover {
+  .btn1-primary:hover {
+    color: white;
     background-color: #0069d9;
     border-color: #0062cc;
   }
   
-  .btn-primary:focus,
-  .btn-primary.focus {
+  .btn1-primary:focus,
+  .btn1-primary.focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
   }
   
