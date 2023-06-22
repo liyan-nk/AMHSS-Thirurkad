@@ -11,10 +11,8 @@
     };
     spinner();
     
-    
     // Initiate the wowjs
     new WOW().init();
-
 
     // Sticky Navbar
     $(window).scroll(function () {
@@ -24,7 +22,6 @@
             $('.sticky-top').css('top', '-100px');
         }
     });
-    
     
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
@@ -53,9 +50,8 @@
         }
     });
     
-    
     // Back to top button
-    $(window).scroll(function () {
+    /* $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
             $('.back-to-top').fadeIn('slow');
         } else {
@@ -65,9 +61,8 @@
     $('.back-to-top').click(function () {
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
-    });
-
-
+    }); */
+    
     // Header carousel
     $(".header-carousel").owlCarousel({
         autoplay: true,
@@ -81,8 +76,7 @@
             '<i class="bi bi-chevron-right"></i>'
         ]
     });
-
-
+    
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
@@ -104,10 +98,8 @@
             }
         }
     });
-    
 })(jQuery);
 
- 
 $(document).ready(function(){
     $("#testimonial-slider").owlCarousel({
         items:1,
@@ -122,20 +114,17 @@ $(document).ready(function(){
     });
 });
 
+// Set the value of the phone number input field to "+91 " plus 10 zeros
+document.getElementById("Phone-Number").value = "+91 ";
 
-   // Set the value of the phone number input field to "+91 " plus 10 zeros
-  document.getElementById("Phone-Number").value = "+91 ";
-  
-  // Add an event listener to the phone number input field to prevent the user from deleting the "+91 " prefix
-  document.getElementById("Phone-Number").addEventListener("input", function() {
+// Add an event listener to the phone number input field to prevent the user from deleting the "+91 " prefix
+document.getElementById("Phone-Number").addEventListener("input", function() {
     if (!this.value.startsWith("+91 ")) {
-      this.value = "+91 " + this.value.slice(3);
+        this.value = "+91 " + this.value.slice(3);
     }
-  });
+});
 
-
-
-  $("#submit-form").submit((e)=>{
+$("#submit-form").submit((e)=>{
     e.preventDefault()
     $.ajax({
         url:"https://script.google.com/macros/s/AKfycbyVf9JxBOuL-zdrnRIf-MTXZqiIHWHJxdorApvlSBHU-CnLkceZdfvFx7MKZ9qfbIJhQg/exec",
@@ -151,20 +140,21 @@ $(document).ready(function(){
 
         }
     })
-})
+});
 
 $('[data-type="adhaar-number"]').keyup(function() {
     var value = $(this).val();
     value = value.replace(/\D/g, "").split(/(?:([\d]{4}))/g).filter(s => s.length > 0).join("-");
     $(this).val(value);
-  });
-  
-  $('[data-type="adhaar-number"]').on("change, blur", function() {
+});
+
+$('[data-type="adhaar-number"]').on("change, blur", function() {
     var value = $(this).val();
     var maxLength = $(this).attr("maxLength");
     if (value.length != maxLength) {
-      $(this).addClass("highlight-error");
+        $(this).addClass("highlight-error");
     } else {
-      $(this).removeClass("highlight-error");
+        $(this).removeClass("highlight-error");
     }
-  });
+});
+
