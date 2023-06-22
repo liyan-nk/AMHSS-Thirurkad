@@ -244,12 +244,20 @@
             var cardBody = $(this).closest(".card-body");
             var truncatedContent = cardBody.find(".truncated-content");
             var fullContent = cardBody.find(".full-content");
+            var readMoreBtn = $(this);
             
             truncatedContent.toggleClass("d-none");
             fullContent.toggleClass("d-none");
+            
+            if (truncatedContent.hasClass("d-none")) {
+              readMoreBtn.text("Read Less");
+            } else {
+              readMoreBtn.text("Read More");
+            }
           });
         });
       </script>
+      
       <!-- Template Javascript -->
       <script src="js/main.js"></script>
   </body>
