@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="/Assets/img/logo.jpg" rel="icon">
+    <link href="/Assets/img/logo-modified.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     
 
     <!-- Customized Bootstrap Stylesheet -->
@@ -50,7 +49,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="/" class="nav-item nav-link active">Home</a>
+                <a href="/" class="nav-item nav-link">Home</a>
                 <a href="/about" class="nav-item nav-link">About</a>
                 <a href="/admission" class="nav-item nav-link">Admission</a>
                 <!-- <div class="nav-item dropdown">
@@ -106,6 +105,28 @@
   <div class="container">
       <h1 class="text-center mt-5">Latest News</h1> <br><br>
       <div class="row"><div class="col-md-6">
+          <div class="card mb-4">
+            <img src="/assets/blog/img20230623132431.jpg" alt="Mehandi fest" class="card-img-top news-image">
+            <div class="card-body">
+              <h5 class="card-title">Mehandi Fest</h5>
+              <p>20 June 2023</p>
+              <p class="card-text truncated-content">Hi this is a new testing.</p>
+              <p class="card-text full-content d-none">Hi this is a new testing with extra description to enable read more because we are unable to access lorem ipsum text generating at the moment.</p> <br>
+              <a href="#" class="btn btn2-primary read-more">Read More</a>
+            </div>
+          </div>
+        </div><div class="col-md-6">
+          <div class="card mb-4">
+            <img src="/assets/blog/school-img-3.jpg" alt="Image alt" class="card-img-top news-image">
+            <div class="card-body">
+              <h5 class="card-title">New Article Testing</h5>
+              <p>08 April 2023</p>
+              <p class="card-text truncated-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p>
+              <p class="card-text full-content d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel. Donec ultrices tincidunt arcu non sodales. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Pretium quam vulputate dignissim suspendisse in est. Lobortis mattis aliquam faucibus purus in massa tempor nec. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Vulputate eu scelerisque felis imperdiet proin. Nisl nisi scelerisque eu ultrices.</p> <br>
+              <a href="#" class="btn btn2-primary read-more">Read More</a>
+            </div>
+          </div>
+        </div><div class="col-md-6">
           <div class="card mb-4">
             <img src="/Assets/blog/Enviroment_Day.jpg" alt="Enviroment Day" class="card-img-top news-image">
             <div class="card-body">
@@ -228,23 +249,5 @@
         </div>
   </footer>
     <!-- Footer End -->
-
-
-    <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
-
-
-
-
-
 </body>
 </html>
