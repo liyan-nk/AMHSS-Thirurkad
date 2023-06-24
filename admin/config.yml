@@ -1,4 +1,0 @@
-backend:
-  name: github
-  repo: https://liyan-nk.github.io/AMHSS-Thirurkad/
-  branch: master
