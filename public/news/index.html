@@ -29,6 +29,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     
 
     <!-- Customized Bootstrap Stylesheet -->
@@ -109,7 +110,7 @@
             <img src="/Assets/blog/Enviroment_Day.jpg" alt="Enviroment Day" class="card-img-top news-image">
             <div class="card-body">
               <h5 class="card-title">Enviroment Day</h5>
-              <p>Saturday, 24th June 2023</p>
+              <p>24th June 2023</p>
               <p class="card-text truncated-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p>
               <p class="card-text full-content d-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel. Donec ultrices tincidunt arcu non sodales. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Pretium quam vulputate dignissim suspendisse in est. Lobortis mattis aliquam faucibus purus in massa tempor nec. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Vulputate eu scelerisque felis imperdiet proin. Nisl nisi scelerisque eu ultrices.</p> <br>
               <a href="#" class="btn btn2-primary read-more">Read More</a>
@@ -227,5 +228,23 @@
         </div>
   </footer>
     <!-- Footer End -->
+
+
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+
+
+
+
+
 </body>
 </html>

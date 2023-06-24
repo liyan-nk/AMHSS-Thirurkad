@@ -1,6 +1,6 @@
 ---
 title: Enviroment Day
-day: Saturday, 24th June 2023
+day: 24th June 2023
 tags: post
 image: /Assets/blog/Enviroment_Day.jpg
 imageAlt: Enviroment Day
