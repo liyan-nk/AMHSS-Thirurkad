@@ -113,6 +113,19 @@ $(document).ready(function(){
         autoPlay:true
     });
 });
+$(document).ready(function(){
+    $("#testimonial-sliderrr").owlCarousel({
+        items:1,
+        itemsDesktop:[1000,1],
+        itemsDesktopSmall:[979,1],
+        itemsTablet:[768,1],
+        margin:10,
+        pagination:false,
+        navigation:true,
+        navigationText:["",""],
+        autoPlay:true
+    });
+});
 
 // Set the value of the phone number input field to "+91 " plus 10 zeros
 document.getElementById("Phone-Number").value = "+91 ";
