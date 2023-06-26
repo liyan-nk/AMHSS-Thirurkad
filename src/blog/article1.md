@@ -14,6 +14,6 @@ descriptionLarge: "On the occasion of Environment Day, AMHSS Thirurkad, a school
   through the neighborhood, drawing the attention of the local community. The
   event served as a powerful reminder of our responsibility to protect and
   preserve our environment for future generations."
-image: /Assets/blog/Enviroment_Day.jpg
+image: /assets/blog/screenshot_18.png
 imageAlt: Enviroment Day
 ---
