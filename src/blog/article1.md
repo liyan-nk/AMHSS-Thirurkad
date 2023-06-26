@@ -4,7 +4,7 @@ day: 5 June 2023
 tags: post
 descriptionShort: Environment Day Awareness Rally
 descriptionLarge: "On the occasion of Environment Day, AMHSS Thirurkad, a school
-  located in the heart of a small town, took the initiative to organize an
+  located in the heart of Thirurkad town, took the initiative to organize an
   awareness rally in the surrounding locality. The event witnessed an
   enthusiastic participation of both students and teachers, who came together
   with a shared goal: to spread the message of \"മണ്ണിലിറങ്ങാം, പച്ചവിരിക്കാം\"
