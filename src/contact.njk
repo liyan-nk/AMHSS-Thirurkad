@@ -151,6 +151,26 @@ layout: 'base.njk'
     </div>
     <!-- Contact End -->
 
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbzK6EyYelg0pt9najlk5-FmE1YZj1b1CCVEFR-I9LB5dcqxkZkXly0hfmSscpDD99w/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+
 
     
 
