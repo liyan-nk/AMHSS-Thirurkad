@@ -114,7 +114,7 @@ layout: 'base.njk'
                         tabindex="0"></iframe>
                 </div>
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <form id="submit-form">
+                    <form id="contact-form">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
@@ -156,7 +156,7 @@ layout: 'base.njk'
             e.preventDefault()
             $.ajax({
                 url:"https://script.google.com/macros/s/AKfycbzK6EyYelg0pt9najlk5-FmE1YZj1b1CCVEFR-I9LB5dcqxkZkXly0hfmSscpDD99w/exec",
-                data:$("#submit-form").serialize(),
+                data:$("#contact-form").serialize(),
                 method:"post",
                 success:function (response){
                     alert("Form submitted successfully")

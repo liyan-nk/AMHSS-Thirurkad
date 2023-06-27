@@ -71,7 +71,7 @@ layout: 'base.njk'
 
     <h1 class="mb-4 text-center">Take Admission Now!</h1>
 
-    <form id="submit-form" class="admission-form">
+    <form id="admission-form" class="admission-form">
       <div class="row">
         <div class="col-lg-6">
           <div class="form-group">
@@ -170,11 +170,11 @@ layout: 'base.njk'
     <!-- Admission End -->
 
     <script>
-        $("#submit-form").submit((e)=>{
+        $("#admisson-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
                 url:"https://script.google.com/macros/s/AKfycbzRMTDHjTfjPj-wxEqUPr2qHGGAca0rJtgG4ZpxqG9AFjQm91KbrcBBCiZv4uSKCRLkCw/exec",
-                data:$("#submit-form").serialize(),
+                data:$("#admission-form").serialize(),
                 method:"post",
                 success:function (response){
                     alert("Form submitted successfully")
