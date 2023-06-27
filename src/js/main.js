@@ -141,14 +141,14 @@ document.getElementById("Phone-Number").addEventListener("input", function() {
 document.getElementById("Contact-Number").value = "+91 ";
 
 // Add an event listener to the phone number input field to prevent the user from deleting the "+91 " prefix
-document.getElementById("Phone-Number").addEventListener("input", function() {
+document.getElementById("Contact-Number").addEventListener("input", function() {
     if (!this.value.startsWith("+91 ")) {
         this.value = "+91 " + this.value.slice(3);
     }
 });
 
 // Set the value of the phone number input field to "+91 " plus 10 zeros
-document.getElementById("Contact-Number").value = "+91 ";
+document.getElementById("Admission-Number").value = "+91 ";
 
 // Add an event listener to the phone number input field to prevent the user from deleting the "+91 " prefix
 document.getElementById("Admission-Number").addEventListener("input", function() {
