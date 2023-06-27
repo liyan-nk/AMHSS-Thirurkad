@@ -1,10 +1,19 @@
 ---
-title: Vijayabheri Class Inaguration
-day: Thursday, 22nd June 2023
+title: "Environment Day "
+day: 5 June 2023
 tags: post
-image: /Assets/blog/Vijayabheri.jpg
-imageAlt: Vijayabheri
-descriptionShort: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
-descriptionLarge: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel. Donec ultrices tincidunt arcu non sodales. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Pretium quam vulputate dignissim suspendisse in est. Lobortis mattis aliquam faucibus purus in massa tempor nec. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Vulputate eu scelerisque felis imperdiet proin. Nisl nisi scelerisque eu ultrices.
+descriptionShort: Environment Day Awareness Rally
+descriptionLarge: "On the occasion of Environment Day, AMHSS Thirurkad, a school
+  located in the heart of Thirurkad town, took the initiative to organize an
+  awareness rally in the surrounding locality. The event witnessed an
+  enthusiastic participation of both students and teachers, who came together
+  with a shared goal: to spread the message of \"മണ്ണിലിറങ്ങാം, പച്ചവിരിക്കാം\"
+  (Let's Embrace the Earth, Let's Go Green). The rally aimed to raise awareness
+  about the importance of environmental conservation and sustainable practices.
+  With colorful banners, placards, and vibrant energy, the students marched
+  through the neighborhood, drawing the attention of the local community. The
+  event served as a powerful reminder of our responsibility to protect and
+  preserve our environment for future generations."
+image: /assets/blog/screenshot_18.png
+imageAlt: Environment Day
 ---
-
