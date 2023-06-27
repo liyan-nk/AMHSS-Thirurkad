@@ -137,23 +137,26 @@ document.getElementById("Phone-Number").addEventListener("input", function() {
     }
 });
 
-$("#submit-form").submit((e)=>{
-    e.preventDefault()
-    $.ajax({
-        url:"https://script.google.com/macros/s/AKfycbyVf9JxBOuL-zdrnRIf-MTXZqiIHWHJxdorApvlSBHU-CnLkceZdfvFx7MKZ9qfbIJhQg/exec",
-        data:$("#submit-form").serialize(),
-        method:"post",
-        success:function (response){
-            alert("Form submitted successfully")
-            window.location.reload()
-            //window.location.href="https://google.com"
-        },
-        error:function (err){
-            alert("Something Error")
+// Set the value of the phone number input field to "+91 " plus 10 zeros
+document.getElementById("Contact-Number").value = "+91 ";
 
-        }
-    })
+// Add an event listener to the phone number input field to prevent the user from deleting the "+91 " prefix
+document.getElementById("Phone-Number").addEventListener("input", function() {
+    if (!this.value.startsWith("+91 ")) {
+        this.value = "+91 " + this.value.slice(3);
+    }
 });
+
+// Set the value of the phone number input field to "+91 " plus 10 zeros
+document.getElementById("Contact-Number").value = "+91 ";
+
+// Add an event listener to the phone number input field to prevent the user from deleting the "+91 " prefix
+document.getElementById("Admission-Number").addEventListener("input", function() {
+    if (!this.value.startsWith("+91 ")) {
+        this.value = "+91 " + this.value.slice(3);
+    }
+});
+
 
 $('[data-type="adhaar-number"]').keyup(function() {
     var value = $(this).val();

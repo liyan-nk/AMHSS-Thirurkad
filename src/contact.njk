@@ -124,7 +124,7 @@ layout: 'base.njk'
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input name="Your Number" type="tel" id="Phone-Number" pattern="^\+91 \d{10}$" maxlength="14" class="form-control" placeholder="Your Email">
+                                    <input name="Your Number" type="tel" id="Contact-Number" pattern="^\+91 \d{10}$" maxlength="14" class="form-control" placeholder="Your Email">
                                     <label for="number">Your Number</label>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@ layout: 'base.njk'
     <!-- Contact End -->
 
     <script>
-        $("#submit-form").submit((e)=>{
+        $("#contact-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
                 url:"https://script.google.com/macros/s/AKfycbzK6EyYelg0pt9najlk5-FmE1YZj1b1CCVEFR-I9LB5dcqxkZkXly0hfmSscpDD99w/exec",
