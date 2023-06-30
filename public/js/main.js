@@ -137,37 +137,5 @@ document.getElementById("Phone-Number").addEventListener("input", function() {
     }
 });
 
-$("#submit-form").submit((e)=>{
-    e.preventDefault()
-    $.ajax({
-        url:"https://script.google.com/macros/s/AKfycbyVf9JxBOuL-zdrnRIf-MTXZqiIHWHJxdorApvlSBHU-CnLkceZdfvFx7MKZ9qfbIJhQg/exec",
-        data:$("#submit-form").serialize(),
-        method:"post",
-        success:function (response){
-            alert("Form submitted successfully")
-            window.location.reload()
-            //window.location.href="https://google.com"
-        },
-        error:function (err){
-            alert("Something Error")
 
-        }
-    })
-});
-
-$('[data-type="adhaar-number"]').keyup(function() {
-    var value = $(this).val();
-    value = value.replace(/\D/g, "").split(/(?:([\d]{4}))/g).filter(s => s.length > 0).join("-");
-    $(this).val(value);
-});
-
-$('[data-type="adhaar-number"]').on("change, blur", function() {
-    var value = $(this).val();
-    var maxLength = $(this).attr("maxLength");
-    if (value.length != maxLength) {
-        $(this).addClass("highlight-error");
-    } else {
-        $(this).removeClass("highlight-error");
-    }
-});
 

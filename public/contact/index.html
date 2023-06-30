@@ -29,6 +29,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
 
     <!-- Customized Bootstrap Stylesheet -->
@@ -151,7 +152,7 @@
                         tabindex="0"></iframe>
                 </div>
                 <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <form id="submit-form">
+                    <form id="contact-form">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
@@ -161,19 +162,19 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="tel" id="Phone-Number" pattern="^\+91 \d{10}$" maxlength="14" class="form-control" placeholder="Your Email">
-                                    <label for="email">Your Number</label>
+                                    <input name="Your Number" type="tel" id="Contact-Number" pattern="^\+91 \d{10}$" maxlength="14" class="form-control" placeholder="Your Email">
+                                    <label for="number">Your Number</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <input name="Subject" type="text" class="form-control" id="subject" placeholder="Subject">
                                     <label for="subject">Subject</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
+                                    <textarea name="Message" class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
@@ -188,7 +189,38 @@
     </div>
     <!-- Contact End -->
 
+    <script>
+        $("#contact-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbzK6EyYelg0pt9najlk5-FmE1YZj1b1CCVEFR-I9LB5dcqxkZkXly0hfmSscpDD99w/exec",
+                data:$("#contact-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully. We will respond to you shortly.")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
+    <script>
+        // Set the value of the phone number input field to "+91 " plus 10 zeros
+        document.getElementById("Contact-Number").value = "+91 ";
 
+        // Add an event listener to the phone number input field to prevent the user from deleting the "+91 " prefix
+        document.getElementById("Contact-Number").addEventListener("input", function() {
+        if (!this.value.startsWith("+91 ")) {
+        this.value = "+91 " + this.value.slice(3);
+        }
+        });
+    </script>
+
+    
     
 
 
@@ -231,7 +263,7 @@
           <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12">
               <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
-           <a href="#">AMHSS Thirurkad</a>. <p class="copyright-text" style="font-size: 15px;"> Designed by <a style="text-decoration: underline;" target="_blank" href="https://linktr.ee/liyannk">LNK</a></p>
+           <a href="#">AMHSS Thirurkad</a>. <p class="copyright-text" style="font-size: 15px;"> Designed by <a style="text-decoration: underline;" target="_blank" href="https://liyan-nk.github.io/portfolio/">LNK</a></p>
               </p>
             </div>
   
@@ -247,5 +279,6 @@
         </div>
   </footer>
     <!-- Footer End -->
+
 </body>
 </html>
