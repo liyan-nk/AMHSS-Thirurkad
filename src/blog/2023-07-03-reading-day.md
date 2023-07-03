@@ -2,8 +2,8 @@
 title: Reading Day
 day: 19 June 2023
 descriptionShort: Reading Day Quiz Competion by Lexicon Amhss English Club
-descriptionLarge: In accordance with the reading day, celebrated on 19th june,
-  we the English club of AMHS Thirurkad successfully completed the Mega Quiz
+descriptionLarge: In accordance with the reading day, celebrated on 19th June,
+  the English club of AMHS Thirurkad successfully completed the Mega Quiz
   Competition based on English, Malayalam & Indian Literature. In the same all
   students participated at their best. 1. Mohammed Najil 10J 2. Hiba Fathima 9H
   3. Fathima Rinsha K 10H won the first, second and third prize respectively. In
