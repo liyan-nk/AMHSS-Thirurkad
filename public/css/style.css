@@ -1,3 +1,6 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
 /********** Template CSS **********/
 :root {
     --primary: #06BBCC;
