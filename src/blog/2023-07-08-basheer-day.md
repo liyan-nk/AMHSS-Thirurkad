@@ -10,6 +10,6 @@ descriptionLarge: On the occasion of Basheer Day, celebrated on July 5th, the
   deepening their appreciation for his literary contributions. This unique
   initiative not only honored Basheer's legacy but also instilled a love for
   literature and the arts among the younger generation.
-image: /assets/blog/basheer.jpg
+image: /assets/blog/screenshot-30.jpg
 imageAlt: Basheer day
 ---
