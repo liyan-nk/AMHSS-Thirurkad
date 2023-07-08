@@ -1,6 +1,6 @@
 ---
 title: "Environment Day "
-day: 5 June 2023
+day: 05 June 2023
 tags: post
 descriptionShort: Environment Day Awareness Rally
 descriptionLarge: "On the occasion of Environment Day, AMHSS Thirurkad, a school
