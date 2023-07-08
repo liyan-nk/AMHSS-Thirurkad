@@ -11,7 +11,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields: 
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date as dd/month-name/year", name: "day", widget: "string" }
+      - { label: "Date", name: "day", widget: "date" }
       - { label: "Short Description", name: "descriptionShort", widget: "string" }
       - { label: "Large Description", name: "descriptionLarge", widget: "string" }
       - { label: "Choose Image", name: "image", widget: "image" }
