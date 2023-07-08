@@ -1,6 +1,6 @@
 ---
 title: Basheer Day
-day: 5 July 2023
+day: 05 July 2023
 descriptionShort: Basheer Day Program
 descriptionLarge: On the occasion of Basheer Day, celebrated on July 5th, the
   students of AMHSS Thirurkad, with the guidance of their teachers, paid homage
