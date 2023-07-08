@@ -1,5 +1,5 @@
 ---
-title: "Environment Day "
+title: "Environment Day"
 day: 05 June 2023
 tags: post
 descriptionShort: Environment Day Awareness Rally
