@@ -4,5 +4,4 @@ Allow: /about
 Allow: /admission
 Allow: /news
 Allow: /contact
-Allow: /contact
 Sitemap: https://amhssthirurkad.in/sitemap.xml
