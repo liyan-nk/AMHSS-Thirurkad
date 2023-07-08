@@ -1,6 +1,6 @@
 ---
 title: Vijayabheri Class Inaguration
-day: 8 June 2023
+day: 08 June 2023
 tags: post
 descriptionShort: Respected Khader Sir inaugurated Vijayabheri Classes of this Academic year
 descriptionLarge: On June 8th, the esteemed presence of Respected Khader Sir
