@@ -1,19 +1,16 @@
 ---
-title: "Environment Day "
-day: 05 June 2023
-tags: post
-descriptionShort: Environment Day Awareness Rally
-descriptionLarge: "On the occasion of Environment Day, AMHSS Thirurkad, a school
-  located in the heart of Thirurkad town, took the initiative to organize an
-  awareness rally in the surrounding locality. The event witnessed an
-  enthusiastic participation of both students and teachers, who came together
-  with a shared goal: to spread the message of \"മണ്ണിലിറങ്ങാം, പച്ചവിരിക്കാം\"
-  (Let's Embrace the Earth, Let's Go Green). The rally aimed to raise awareness
-  about the importance of environmental conservation and sustainable practices.
-  With colorful banners, placards, and vibrant energy, the students marched
-  through the neighborhood, drawing the attention of the local community. The
-  event served as a powerful reminder of our responsibility to protect and
-  preserve our environment for future generations."
-image: /assets/blog/screenshot_18.png
-imageAlt: Environment Day
+title: Reading Day
+day: 19 June 2023
+descriptionShort: Reading Day Quiz Competion by Lexicon Amhss English Club
+descriptionLarge: In accordance with the reading day, celebrated on 19th June,
+  the English club of AMHS Thirurkad successfully completed the Mega Quiz
+  Competition based on English, Malayalam & Indian Literature. In the same all
+  students participated at their best. 1. Mohammed Najil 10J 2. Hiba Fathima 9H
+  3. Fathima Rinsha K 10H won the first, second and third prize respectively. In
+  the prize distribution ceremony Honorable HM EK Majeed Master, Dep HM CH
+  Farooq Master, Staff Secretary T Usman master spotted their happiness and
+  wishes on the Program. Raseena Teacher, Jyothi Teacher, Moidenn kutty Master,
+  Basima Teacher also did their best to enrich the colour of the Program.
+image: /assets/blog/screenshot_27.png
+imageAlt: Reading Day
 ---
