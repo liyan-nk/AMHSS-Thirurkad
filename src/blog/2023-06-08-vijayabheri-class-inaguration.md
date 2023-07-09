@@ -2,7 +2,7 @@
 title: Vijayabheri Class Inaguration
 day: 08 June 2023
 tags: post
-descriptionShort: Respected Khader Sir inaugurated Vijayabheri Classes of this Academic year
+descriptionShort: Khader Sir inaugurated Vijayabheri Classes
 descriptionLarge: On June 8th, the esteemed presence of Respected Khader Sir
   marked the inauguration of the Vijayabheri classes at AMHSS Thirurkad. These
   special classes were introduced exclusively for the 10th standard students,
