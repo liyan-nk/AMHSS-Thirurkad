@@ -144,13 +144,5 @@ document.getElementById("Phone-Number").addEventListener("input", function() {
 });
 
 
-var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-
-if (isiOS) {
-  var videos = document.getElementsByClassName('AboutVideo');
-  for (var i = 0; i < videos.length; i++) {
-    videos[i].removeAttribute('controls');
-  }
-}
 
 
