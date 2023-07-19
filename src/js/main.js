@@ -51,8 +51,12 @@
     });
     
     // Back to top button
+    $(document).ready(function () {
+        $('.back-to-top').hide(); // Hide the button initially
+    });
+    
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > $(window).height()) {
             $('.back-to-top').fadeIn('slow');
         } else {
             $('.back-to-top').fadeOut('slow');
@@ -62,6 +66,8 @@
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
     });
+    
+    
     
     // Header carousel
     $(".header-carousel").owlCarousel({
@@ -137,5 +143,14 @@ document.getElementById("Phone-Number").addEventListener("input", function() {
     }
 });
 
+
+var isiOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+if (isiOS) {
+  var videos = document.getElementsByClassName('AboutVideo');
+  for (var i = 0; i < videos.length; i++) {
+    videos[i].removeAttribute('controls');
+  }
+}
 
 
